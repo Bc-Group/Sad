@@ -1,4 +1,4 @@
-package com.bcgroup.sad
+package com.bcgroup.sad.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,7 +10,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        var i = 10
-        var s = "Shakil"
     }
 }
